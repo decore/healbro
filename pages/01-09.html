@@ -3,7 +3,7 @@
   <head>
     <title>HB - Структура</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../app/vendor/bootstrap/bootstrap.css" type="text/css" rel="stylesheet">
     <link href="../app/vendor/formstyler/jquery.formstyler.css" type="text/css" rel="stylesheet">
     <link href="../app/style.css" type="text/css" rel="stylesheet">
@@ -12,7 +12,7 @@
     <main>
       <header class="header">
         <div class="container">
-          <div class="header-wrapp"><a href="#" class="logo"><img src="../img/logo.png"></a>
+          <div class="header-wrapp"><a href="#" class="logo"><img src="../img/logo.png" alt="HealBro"></a>
             <ul class="welcome">
               <li class="dropdown">
                 <p data-toggle="dropdown">Здравствуйте, Иван Иванович</p>
@@ -30,45 +30,45 @@
         <div class="container">
           <h1>Структура учреждения</h1>
           <div class="block-content clearfix">
-            <div class="name-obj">
+            <div class="name-obj col-lg-4 col-md-4">
               <h2>Аптека &laquo;Пульс&raquo;</h2>
               <p>г.Екатеринбург,ул.Радищева,4</p>
             </div>
-            <div class="adress-obj">
+            <div class="adress-obj col-lg-6 col-md-5 col-xs-8">
               <p>(343) 567 89 00</p><a href="#">www.plus-apteka.ru</a>
             </div>
-            <div class="button-obj">
-              <div class="button-red"><a href="#"><img src="../img/ico-pencil.png">
+            <div class="button-obj col-lg-2 col-md-3 col-xs-4">
+              <div class="button-red"><a data-toggle="modal" data-target="#modal-2"><img src="../img/ico-pencil.png">
                   <p>Редактировать</p></a></div>
               <div class="button-del"><a href="#"><img src="../img/ico-remove.png">
                   <p>Удалить</p></a></div>
             </div>
           </div>
           <div class="block-content clearfix">
-            <div class="name-obj">
+            <div class="name-obj col-lg-4 col-md-4">
               <h2>Аптека &laquo;Пульс&raquo;</h2>
               <p>г.Екатеринбург,ул.Радищева,4</p>
             </div>
-            <div class="adress-obj">
+            <div class="adress-obj col-lg-6 col-md-5 col-xs-8">
               <p>(343) 567 89 00</p><a href="#">www.plus-apteka.ru</a>
             </div>
-            <div class="button-obj">
-              <div class="button-red"><a href="#"><img src="../img/ico-pencil.png">
+            <div class="button-obj col-lg-2 col-md-3 col-xs-4">
+              <div class="button-red"><a data-toggle="modal" data-target="#modal-2"><img src="../img/ico-pencil.png">
                   <p>Редактировать</p></a></div>
               <div class="button-del"><a href="#"><img src="../img/ico-remove.png">
                   <p>Удалить</p></a></div>
             </div>
           </div>
           <div class="block-content clearfix">
-            <div class="name-obj">
+            <div class="name-obj col-lg-4 col-md-4">
               <h2>Аптека &laquo;Пульс&raquo;</h2>
               <p>г.Екатеринбург,ул.Радищева,4</p>
             </div>
-            <div class="adress-obj">
+            <div class="adress-obj col-lg-6 col-md-5 col-xs-8">
               <p>(343) 567 89 00</p><a href="#">www.plus-apteka.ru</a>
             </div>
-            <div class="button-obj">
-              <div class="button-red"><a href="#"><img src="../img/ico-pencil.png">
+            <div class="button-obj col-lg-2 col-md-3 col-xs-4">
+              <div class="button-red"><a data-toggle="modal" data-target="#modal-2"><img src="../img/ico-pencil.png">
                   <p>Редактировать</p></a></div>
               <div class="button-del"><a href="#"><img src="../img/ico-remove.png">
                   <p>Удалить</p></a></div>
@@ -78,96 +78,100 @@
         </div>
       </div>
       <div class="add_point">
-        <div id="modal-2" class="modal fade">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <div data-dismiss="modal" class="close"></div>
-                <h1 class="modal-title">Добавить новую точку</h1>
-                <div class="point-block-top clearfix">
-                  <div class="title">
-                    <form>
+        <div class="container">
+          <div id="modal-2" class="modal fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div data-dismiss="modal" class="close"></div>
+                  <h1 class="modal-title">Добавить новую точку</h1>
+                  <div class="point-block-top clearfix">
+                    <div class="adap">
+                      <div class="title">
+                        <form>
+                          <fieldset>
+                            <legend>Название</legend>
+                            <div class="jq-selectbox">
+                              <select data-placeholder="Вид">
+                                <option></option>
+                                <option>Пункт 1</option>
+                                <option>Пункт 2</option>
+                                <option>Пункт 3</option>
+                              </select>
+                            </div>
+                            <input type="text" name="title_number" placeholder="Название или номер">
+                          </fieldset>
+                        </form>
+                      </div>
+                      <div class="logotip">
+                        <fieldset>
+                          <legend>Логотип</legend>
+                          <div class="logo-img"></div>
+                          <div class="button-wraps"><a href="#" class="btn-download">Загрузить</a></div>
+                        </fieldset>
+                      </div>
+                    </div>
+                    <div class="services">
                       <fieldset>
-                        <legend>Название</legend>
-                        <div class="jq-selectbox">
-                          <select data-placeholder="Вид">
-                            <option></option>
-                            <option>Пункт 1</option>
-                            <option>Пункт 2</option>
-                            <option>Пункт 3</option>
-                          </select>
+                        <legend>Услуги</legend>
+                        <div class="checkbox-wrap">
+                          <input type="checkbox" checked="checked" name="uslugi"><span>Услуги врача/врачей</span>
                         </div>
-                        <input type="text" name="title_number" placeholder="Название или номер">
-                      </fieldset>
-                    </form>
-                  </div>
-                  <div class="logotip">
-                    <fieldset>
-                      <legend>Логотип</legend>
-                      <div class="logo-img"></div>
-                      <div class="button-wraps"><a href="#" class="btn-download">Загрузить</a></div>
-                    </fieldset>
-                  </div>
-                  <div class="services">
-                    <fieldset>
-                      <legend>Услуги</legend>
-                      <div class="checkbox-wrap">
-                        <input type="checkbox" checked="checked" name="uslugi"><span>Услуги врача/врачей</span>
-                      </div>
-                      <div class="checkbox-wrap">
-                        <input type="checkbox" name="lab"><span>Лабораторные исследования</span>
-                      </div>
-                      <div class="checkbox-wrap">
-                        <input type="checkbox" name="diag"><span>Инструментальная диагностика</span>
-                      </div>
-                      <div class="checkbox-wrap">
-                        <input type="checkbox" name="uslugi"><span>Продажа лекарств и мед. товаров</span>
-                      </div>
-                    </fieldset>
-                  </div>
-                  <div class="block-adress">
-                    <form>
-                      <fieldset>
-                        <legend>Название</legend>
-                        <div class="jq-selectbox">
-                          <select data-placeholder="Страна">
-                            <option></option>
-                            <option>Пункт 1</option>
-                            <option>Пункт 2</option>
-                            <option>Пункт 3</option>
-                          </select>
+                        <div class="checkbox-wrap">
+                          <input type="checkbox" name="lab"><span>Лабораторные исследования</span>
                         </div>
-                        <input type="text" name="adress" placeholder="Адрес">
-                        <div class="maps">
-                          <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=C0gnCROImS6e44wh0_JEAnBDnPROWaZa&amp;width=705&amp;height=320" style="margin-left: 20px; display: block;"></script>
+                        <div class="checkbox-wrap">
+                          <input type="checkbox" name="diag"><span>Инструментальная диагностика</span>
+                        </div>
+                        <div class="checkbox-wrap">
+                          <input type="checkbox" name="uslugi"><span>Продажа лекарств и мед. товаров</span>
                         </div>
                       </fieldset>
-                    </form>
+                    </div>
+                    <div class="block-adress">
+                      <form>
+                        <fieldset>
+                          <legend>Название</legend>
+                          <div class="jq-selectbox">
+                            <select data-placeholder="Страна">
+                              <option></option>
+                              <option>Пункт 1</option>
+                              <option>Пункт 2</option>
+                              <option>Пункт 3</option>
+                            </select>
+                          </div>
+                          <input type="text" name="adress" placeholder="Адрес">
+                          <div class="maps">
+                            <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=C0gnCROImS6e44wh0_JEAnBDnPROWaZa&amp;width=90%&amp;height=320"></script>
+                          </div>
+                        </fieldset>
+                      </form>
+                    </div>
+                    <div class="block-contacts">
+                      <form>
+                        <fieldset>
+                          <legend>Контакты</legend>
+                          <input type="text" name="sait" placeholder="Сайт">
+                          <input type="text" name="mail" placeholder="E-mail">
+                          <input type="text" name="adress" placeholder="Телефон" class="tel1"><a href="#"><img src="../img/ico-red-plus.png"></a>
+                        </fieldset>
+                      </form>
+                    </div>
                   </div>
-                  <div class="block-contacts">
+                </div>
+                <div class="modal-body">
+                  <h1>Новый пользователь:</h1>
+                  <div class="new-user">
                     <form>
-                      <fieldset>
-                        <legend>Контакты</legend>
-                        <input type="text" name="sait" placeholder="Сайт">
-                        <input type="text" name="mail" placeholder="E-mail">
-                        <input type="text" name="adress" placeholder="Телефон" class="tel1"><a href="#"><img src="../img/ico-red-plus.png"></a>
-                      </fieldset>
+                      <input type="text" name="E-mail" placeholder="E-mail">
+                      <input type="password" name="pass" placeholder="Пароль">
+                      <input type="password" name="pass_repeat" placeholder="Пароль еще раз">
                     </form>
                   </div>
                 </div>
-              </div>
-              <div class="modal-body">
-                <h1>Новый пользователь:</h1>
-                <div class="new-user">
-                  <form>
-                    <input type="text" name="E-mail" placeholder="E-mail">
-                    <input type="password" name="pass" placeholder="Пароль">
-                    <input type="password" name="pass_repeat" placeholder="Пароль еще раз">
-                  </form>
+                <div class="modal-footer">
+                  <div class="button-wraps"><a href="#" class="btnsavers">Сохранить</a></div>
                 </div>
-              </div>
-              <div class="modal-footer">
-                <div class="button-wraps"><a href="#" class="btnsavers">Сохранить</a></div>
               </div>
             </div>
           </div>
@@ -177,14 +181,14 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-wrap">
-          <div class="footer-adress">
+          <div class="col-xs-5 footer-adress">
             <h2>Адрес:</h2>
             <p>620014 г.Екатеринбург,ул.Антона Валека 15 оф.516</p>
           </div>
-          <div class="footer-tel">
+          <div class="col-lg-5 col-xs-4 footer-tel">
             <h2>Телефон:</h2><a href="tel:+73433581121">+7(343) 358 11 21</a><a href="tel:+73432073156">+7(343) 207 31 56</a>
           </div>
-          <div class="copy">
+          <div class="col-lg-2 col-xs-3 copy">
             <p>Copyright &copy; 2015 HealBro </p>
           </div>
         </div>

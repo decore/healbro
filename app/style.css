@@ -1,6 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto:400,300,500&subset=cyrillic-ext,latin");
 body {
-  min-width: 1170px;
+  min-width: 480px;
 }
 h1,
 h2,
@@ -9,12 +9,12 @@ a {
   font-family: 'Roboto', sans-serif;
 }
 .container {
-  width: 1170px !important;
+  min-width: 480px !important;
 }
-.add_point .modal.fade .modal-dialog {
-  width: 1170px;
+.add_point .container .modal.fade .modal-dialog {
+  max-width: 1170px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header h1 {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header h1 {
   text-align: center;
   font-size: 40px;
   font-weight: 500;
@@ -22,25 +22,28 @@ a {
   padding-top: 35px;
   padding-bottom: 45px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .close {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .close {
   width: 23px;
   height: 23px;
   background: linear-gradient(-45deg, rgba(255,255,255,0) 43%, #cecece 51%, rgba(255,255,255,0) 53%), linear-gradient(45deg, rgba(255,255,255,0) 45%, #cecece 53%, rgba(255,255,255,0) 53%);
   opacity: 1;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .close:hover {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .close:hover {
   opacity: 1;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap {
+  width: 750px;
+}
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title {
   float: left;
   width: 360px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title form fieldset {
   width: 360px;
   height: 180px;
   border: 1px solid #efefef;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset legend {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title form fieldset legend {
   width: auto;
   padding-right: 40px;
   border-bottom: 0;
@@ -48,15 +51,15 @@ a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title form fieldset .jq-selectbox {
   width: 320px;
   margin: 0 auto;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox li {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title form fieldset .jq-selectbox li {
   color: #b2b2b2;
   padding-left: 17px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__select {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title form fieldset .jq-selectbox .jq-selectbox__select {
   margin-bottom: 23px;
   height: 45px;
   background: transparent;
@@ -65,7 +68,7 @@ a {
   box-shadow: none;
   padding-left: 0;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
   height: 45px;
   line-height: 45px;
   padding-left: 17px;
@@ -74,26 +77,26 @@ a {
   font-weight: 300;
   color: #b2b2b2;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text.placeholder {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text.placeholder {
   width: auto;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger {
   width: 45px;
   background: #efefef;
   border: 0;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger .jq-selectbox__trigger-arrow {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger .jq-selectbox__trigger-arrow {
   top: 19px;
   right: 17px;
   opacity: 1;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__dropdown {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title form fieldset .jq-selectbox .jq-selectbox__dropdown {
   top: 46px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset input {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .title form fieldset input {
   display: block;
   margin: 0 auto;
   width: 320px;
@@ -106,17 +109,17 @@ a {
   font-weight: 300;
   margin-bottom: 23px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .logotip {
   float: left;
   width: 360px;
   margin-left: 30px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .logotip fieldset {
   width: 360px;
   height: 180px;
   border: 1px solid #efefef;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset legend {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .logotip fieldset legend {
   width: auto;
   padding-right: 40px;
   border-bottom: 0;
@@ -124,19 +127,19 @@ a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset .logo-img {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .logotip fieldset .logo-img {
   float: left;
   margin-left: 25px;
   width: 110px;
   height: 110px;
   background: linear-gradient(-45deg, rgba(255,255,255,0) 50%, #cecece 51%, rgba(255,255,255,0) 53%), linear-gradient(45deg, rgba(255,255,255,0) 51%, #cecece 52%, rgba(255,255,255,0) 53%) #efefef;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset .button-wraps {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .logotip fieldset .button-wraps {
   float: left;
   margin-left: 50px;
   margin-top: 30px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset .button-wraps a.btn-download {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .logotip fieldset .button-wraps a.btn-download {
   display: block;
   margin: 0 auto;
   border-radius: 35px;
@@ -153,20 +156,20 @@ a {
   transition: opacity 0.4s;
   text-align: center;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset .button-wraps a.btn-download:hover {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .adap .logotip fieldset .button-wraps a.btn-download:hover {
   opacity: 0.8;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services {
   float: left;
   width: 360px;
   margin-left: 25px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset {
   width: 360px;
   height: 180px;
   border: 1px solid #efefef;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset legend {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset legend {
   width: auto;
   padding-right: 40px;
   border-bottom: 0;
@@ -174,14 +177,14 @@ a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap {
   margin-bottom: 5px;
   margin-left: 15px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap span {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap span {
   margin-left: 15px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap .jq-checkbox.checked .jq-checkbox__div {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap .jq-checkbox.checked .jq-checkbox__div {
   background: url("../img/check.png") no-repeat;
   box-shadow: none;
   width: 16px;
@@ -189,7 +192,7 @@ a {
   background-size: 65% 60%;
   background-position: 1px 2px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap .jq-checkbox {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap .jq-checkbox {
   width: 16px;
   height: 16px;
   border: none;
@@ -197,18 +200,18 @@ a {
   background: #efefef;
   box-shadow: none;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress {
   float: left;
   width: 750px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset {
   width: 750px;
   height: 470px;
   border: 1px solid #efefef;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset legend {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset legend {
   width: auto;
   padding-right: 40px;
   border-bottom: 0;
@@ -216,16 +219,16 @@ a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox {
   width: 335px;
   float: left;
   margin-left: 10px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox li {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox li {
   color: #b2b2b2;
   padding-left: 17px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select {
   margin-bottom: 23px;
   height: 45px;
   background: transparent;
@@ -234,7 +237,7 @@ a {
   box-shadow: none;
   padding-left: 0;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
   height: 45px;
   line-height: 45px;
   padding-left: 17px;
@@ -243,26 +246,26 @@ a {
   font-weight: 300;
   color: #b2b2b2;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text.placeholder {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text.placeholder {
   width: auto;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger {
   width: 45px;
   background: #efefef;
   border: 0;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger .jq-selectbox__trigger-arrow {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger .jq-selectbox__trigger-arrow {
   top: 19px;
   right: 17px;
   opacity: 1;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__dropdown {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__dropdown {
   top: 46px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset input {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset input {
   display: block;
   float: left;
   margin-left: 45px;
@@ -276,22 +279,23 @@ a {
   font-weight: 300;
   margin-bottom: 30px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .maps {
-  margin-left: 20px;
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .maps {
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts {
   float: left;
   width: 360px;
   margin-left: 25px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset {
   width: 360px;
   height: 470px;
   border: 1px solid #efefef;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset legend {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset legend {
   width: auto;
   padding-right: 40px;
   border-bottom: 0;
@@ -299,7 +303,7 @@ a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset input {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset input {
   display: block;
   margin: 0 auto;
   width: 320px;
@@ -312,19 +316,19 @@ a {
   font-weight: 300;
   margin-bottom: 23px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset input:nth-child(4) {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset input:nth-child(4) {
   width: 260px;
   float: left;
   margin-left: 20px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset img {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset img {
   display: block;
   margin: 0 auto;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-body {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-body {
   height: 285px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-body h1 {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-body h1 {
   text-align: center;
   font-size: 24px;
   font-weight: 500;
@@ -332,7 +336,7 @@ a {
   padding-top: 30px;
   padding-bottom: 35px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-body .new-user form input {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-body .new-user form input {
   display: block;
   margin: 0 auto;
   width: 360px;
@@ -345,14 +349,14 @@ a {
   font-weight: 300;
   margin-bottom: 20px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-footer {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-footer {
   height: 170px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-footer .button-wraps {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-footer .button-wraps {
   margin-top: 40px;
   margin-bottom: 65px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-footer .button-wraps a.btnsavers {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-footer .button-wraps a.btnsavers {
   margin: 0 auto;
   display: block;
   border-radius: 35px;
@@ -369,8 +373,66 @@ a {
   transition: opacity 0.4s;
   text-align: center;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-footer .button-wraps a.btnsavers:hover {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-footer .button-wraps a.btnsavers:hover {
   opacity: 0.8;
+}
+@media (max-width: 1199px) {
+  .modal-dialog {
+    width: 98% !important;
+  }
+  .services,
+  .adap,
+  .block-adress,
+  .block-contacts {
+    float: none !important;
+    margin: 0 auto !important;
+  }
+  .block-contacts {
+    margin-top: 25px !important;
+  }
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 98% !important;
+  }
+}
+@media (max-width: 768px) {
+  fieldset {
+    margin-bottom: 20px;
+  }
+  .title,
+  .logotip {
+    float: none !important;
+    margin: 0 auto !important;
+  }
+  .maps {
+    width: 100% !important;
+  }
+  .jq-selectbox,
+  input {
+    float: none !important;
+    margin: 0 auto !important;
+  }
+  input {
+    margin-bottom: 25px !important;
+  }
+  .adap {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .block-adress {
+    width: 100% !important;
+  }
+  .block-adress fieldset {
+    height: 525px !important;
+    width: 100% !important;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .modal-dialog {
+    width: 96% !important;
+  }
 }
 .footer {
   background-color: #1d1e22;
@@ -431,6 +493,40 @@ a {
 .footer .container .footer-wrap .copy p {
   color: #cecece;
   font-size: 12px;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .footer-adress {
+    padding-right: 40px !important;
+  }
+  .footer-tel h2,
+  .footer-adress h2,
+  .footer-tel p,
+  .footer-adress p,
+  .footer-tel a,
+  .footer-adress a {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 991px) {
+  .footer-tel a:last-child {
+    display: block !important;
+    margin-left: 0 !important;
+  }
+  .footer-wrap {
+    padding-top: 20px !important;
+  }
+}
+@media (max-width: 767px) {
+  .footer {
+    height: 120px !important;
+  }
+  .footer-wrap {
+    padding-top: 15px !important;
+  }
+  .footer-tel {
+    padding-left: 20px !important;
+  }
 }
 .header {
   background-color: #f2f2f2;
@@ -535,7 +631,7 @@ a {
   padding-top: 15px;
   margin-top: 10px;
   background-color: #efefef;
-  height: 140px;
+  min-height: 140px;
 }
 .listdoc .container .block-listdoc .name-doc,
 .listdoc .container .block-listdoc .price-obj,
@@ -543,9 +639,7 @@ a {
   float: left;
 }
 .listdoc .container .block-listdoc .name-doc {
-  margin-left: 90px;
   margin-top: 10px;
-  width: 315px;
 }
 .listdoc .container .block-listdoc .name-doc h2 {
   font-size: 22px;
@@ -558,16 +652,12 @@ a {
   font-weight: 500;
 }
 .listdoc .container .block-listdoc .price-obj {
-  margin-left: 85px;
   margin-top: 30px;
 }
 .listdoc .container .block-listdoc .price-obj p {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-}
-.listdoc .container .block-listdoc .button-obj {
-  margin-left: 200px;
 }
 .listdoc .container .block-listdoc .button-obj img {
   padding-bottom: 3px;
@@ -578,9 +668,11 @@ a {
 }
 .listdoc .container .block-listdoc .button-obj .button-red {
   margin-top: 25px;
+  cursor: pointer;
 }
 .listdoc .container .block-listdoc .button-obj .button-del {
   margin-top: 15px;
+  cursor: pointer;
 }
 .listdoc .container .block-listdoc a {
   color: #f00;
@@ -611,6 +703,21 @@ a {
 }
 .listdoc .container .button-wrap a.btnadd:hover {
   opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .button-obj p {
+    margin-left: 5px !important;
+    font-size: 12px !important;
+  }
+  .price-obj p {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 991px) {
+  .block-listdoc,
+  .block-content {
+    padding-bottom: 20px;
+  }
 }
 .login {
   background-color: #f9f9f9;
@@ -831,6 +938,7 @@ a {
 .nav-tabs-wrap .nav-tabs > li.active > a:focus {
   color: #e21316 !important;
   font-weight: 500 !important;
+  border-bottom: none !important;
 }
 .nav-tabs-wrap .nav-tabs > li.active {
   position: relative;
@@ -849,6 +957,59 @@ a {
 }
 .tab-content {
   padding-top: 10px;
+}
+@media (max-width: 1200px) {
+  ul.nav.nav-tabs li {
+    max-width: 25%;
+  }
+  ul.nav.nav-tabs a {
+    line-height: 20px !important;
+    padding-top: 8px !important;
+  }
+}
+@media (max-width: 991px) {
+  ul.nav.nav-tabs {
+    bottom: 0 !important;
+    border: 1px solid #ddd;
+  }
+  ul.nav.nav-tabs li {
+    max-width: 100% !important;
+    float: none !important;
+    border-bottom: 1px solid #ddd;
+  }
+  ul.nav.nav-tabs li:last-child {
+    border-bottom: none !important;
+  }
+  ul.nav.nav-tabs a {
+    line-height: 60px !important;
+    padding-top: 0 !important;
+  }
+  .nav-tabs > li.active {
+    margin-right: 0 !important;
+  }
+  .nav-tabs > li.active:before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 25px !important;
+    top: 25px !important;
+    height: 20px !important;
+    width: 20px !important;
+    border: 10px solid transparent;
+    border-top: 10px solid #ddd;
+    background: none !important;
+  }
+  .nav-tabs > li > a {
+    margin-right: 0 !important;
+  }
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:hover,
+  .nav-tabs > li.active > a:focus {
+    border: none !important;
+  }
+  .nav-tabs > li {
+    margin-bottom: 0 !important;
+  }
 }
 .new_doctor .modal.fade .modal-dialog .modal-content .modal-header h1 {
   text-align: center;
@@ -1152,8 +1313,9 @@ a {
 }
 .profile .change-pass {
   background-color: #efefef;
-  width: 1170px;
+  width: 87%;
   margin: 0 auto;
+  margin-bottom: 105px;
 }
 .profile .change-pass .container p {
   text-align: center;
@@ -1236,6 +1398,11 @@ a {
   font-weight: 500;
   margin: 0;
 }
+@media (max-width: 767px) {
+  h2 {
+    font-size: 22px !important;
+  }
+}
 .registration {
   background-color: #f9f9f9;
 }
@@ -1306,7 +1473,7 @@ a {
   padding-top: 15px;
   margin-top: 10px;
   background-color: #efefef;
-  height: 140px;
+  min-height: 140px;
 }
 .structure .container .block-content .name-obj,
 .structure .container .block-content .adress-obj,
@@ -1314,7 +1481,6 @@ a {
   float: left;
 }
 .structure .container .block-content .name-obj {
-  margin-left: 115px;
   margin-top: 10px;
 }
 .structure .container .block-content .name-obj h2 {
@@ -1328,7 +1494,6 @@ a {
   font-weight: 500;
 }
 .structure .container .block-content .adress-obj {
-  margin-left: 145px;
   margin-top: 30px;
 }
 .structure .container .block-content .adress-obj p,
@@ -1336,9 +1501,6 @@ a {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-}
-.structure .container .block-content .button-obj {
-  margin-left: 340px;
 }
 .structure .container .block-content .button-obj img {
   padding-bottom: 3px;
@@ -1349,9 +1511,11 @@ a {
 }
 .structure .container .block-content .button-obj .button-red {
   margin-top: 25px;
+  cursor: pointer;
 }
 .structure .container .block-content .button-obj .button-del {
   margin-top: 15px;
+  cursor: pointer;
 }
 .structure .container .block-content a {
   color: #f00;
