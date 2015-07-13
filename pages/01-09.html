@@ -74,7 +74,103 @@
                   <p>Удалить</p></a></div>
             </div>
           </div>
-          <div class="button-wrap"><a href="#" class="btnadd"><img src="../img/ico-red-plus1.png">Добавить</a></div>
+          <div class="button-wrap"><a data-toggle="modal" data-target="#modal-2" class="btnadd"><img src="../img/ico-red-plus1.png">Добавить</a></div>
+        </div>
+      </div>
+      <div class="add_point">
+        <div id="modal-2" class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div data-dismiss="modal" class="close"></div>
+                <h1 class="modal-title">Добавить новую точку</h1>
+                <div class="point-block-top clearfix">
+                  <div class="title">
+                    <form>
+                      <fieldset>
+                        <legend>Название</legend>
+                        <div class="jq-selectbox">
+                          <select data-placeholder="Вид">
+                            <option></option>
+                            <option>Пункт 1</option>
+                            <option>Пункт 2</option>
+                            <option>Пункт 3</option>
+                          </select>
+                        </div>
+                        <input type="text" name="title_number" placeholder="Название или номер">
+                      </fieldset>
+                    </form>
+                  </div>
+                  <div class="logotip">
+                    <fieldset>
+                      <legend>Логотип</legend>
+                      <div class="logo-img"></div>
+                      <div class="button-wraps"><a href="#" class="btn-download">Загрузить</a></div>
+                    </fieldset>
+                  </div>
+                  <div class="services">
+                    <fieldset>
+                      <legend>Услуги</legend>
+                      <div class="checkbox-wrap">
+                        <input type="checkbox" checked="checked" name="uslugi"><span>Услуги врача/врачей</span>
+                      </div>
+                      <div class="checkbox-wrap">
+                        <input type="checkbox" name="lab"><span>Лабораторные исследования</span>
+                      </div>
+                      <div class="checkbox-wrap">
+                        <input type="checkbox" name="diag"><span>Инструментальная диагностика</span>
+                      </div>
+                      <div class="checkbox-wrap">
+                        <input type="checkbox" name="uslugi"><span>Продажа лекарств и мед. товаров</span>
+                      </div>
+                    </fieldset>
+                  </div>
+                  <div class="block-adress">
+                    <form>
+                      <fieldset>
+                        <legend>Название</legend>
+                        <div class="jq-selectbox">
+                          <select data-placeholder="Страна">
+                            <option></option>
+                            <option>Пункт 1</option>
+                            <option>Пункт 2</option>
+                            <option>Пункт 3</option>
+                          </select>
+                        </div>
+                        <input type="text" name="adress" placeholder="Адрес">
+                        <div class="maps">
+                          <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=C0gnCROImS6e44wh0_JEAnBDnPROWaZa&amp;width=705&amp;height=320" style="margin-left: 20px; display: block;"></script>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                  <div class="block-contacts">
+                    <form>
+                      <fieldset>
+                        <legend>Контакты</legend>
+                        <input type="text" name="sait" placeholder="Сайт">
+                        <input type="text" name="mail" placeholder="E-mail">
+                        <input type="text" name="adress" placeholder="Телефон" class="tel1"><a href="#"><img src="../img/ico-red-plus.png"></a>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body">
+                <h1>Новый пользователь:</h1>
+                <div class="new-user">
+                  <form>
+                    <input type="text" name="E-mail" placeholder="E-mail">
+                    <input type="password" name="pass" placeholder="Пароль">
+                    <input type="password" name="pass_repeat" placeholder="Пароль еще раз">
+                  </form>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <div class="button-wraps"><a href="#" class="btnsavers">Сохранить</a></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

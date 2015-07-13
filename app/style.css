@@ -276,7 +276,7 @@ a {
   font-weight: 300;
   margin-bottom: 30px;
 }
-.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset iframe {
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .maps {
   margin-left: 20px;
 }
 .add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts {
@@ -1382,4 +1382,5 @@ a {
 }
 .structure .container .button-wrap a.btnadd:hover {
   opacity: 0.8;
+  cursor: pointer;
 }

@@ -1,5 +1,4 @@
 
-<button type="button" data-toggle="modal" data-target="#modal-2" class="btn btn-success">Открыть модальное окно</button>
 <div class="add_point">
   <div id="modal-2" class="modal fade">
     <div class="modal-dialog">
@@ -61,7 +60,9 @@
                     </select>
                   </div>
                   <input type="text" name="adress" placeholder="Адрес"/>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3861.9082703919103!2d74.32016546651397!3d14.547237955865878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1436751671477" width="705" height="320" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
+                  <div class="maps">
+                    <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=C0gnCROImS6e44wh0_JEAnBDnPROWaZa&amp;width=705&amp;height=320" style="margin-left: 20px; display: block;"></script>
+                  </div>
                 </fieldset>
               </form>
             </div>
@@ -71,7 +72,7 @@
                   <legend>Контакты</legend>
                   <input type="text" name="sait" placeholder="Сайт"/>
                   <input type="text" name="mail" placeholder="E-mail"/>
-                  <input type="text" name="adress" placeholder="Телефон" class="tel1"/><img src="../img/ico-red-plus.png"/>
+                  <input type="text" name="adress" placeholder="Телефон" class="tel1"/><a href="#"><img src="../img/ico-red-plus.png"/></a>
                 </fieldset>
               </form>
             </div>
