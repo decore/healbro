@@ -1,0 +1,1385 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,500&subset=cyrillic-ext,latin");
+body {
+  min-width: 1170px;
+}
+h1,
+h2,
+p,
+a {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  width: 1170px !important;
+}
+.add_point .modal.fade .modal-dialog {
+  width: 1170px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .close {
+  width: 23px;
+  height: 23px;
+  background: linear-gradient(-45deg, rgba(255,255,255,0) 43%, #cecece 51%, rgba(255,255,255,0) 53%), linear-gradient(45deg, rgba(255,255,255,0) 45%, #cecece 53%, rgba(255,255,255,0) 53%);
+  opacity: 1;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .close:hover {
+  opacity: 1;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title {
+  float: left;
+  width: 360px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset {
+  width: 360px;
+  height: 180px;
+  border: 1px solid #efefef;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset legend {
+  width: auto;
+  padding-right: 40px;
+  border-bottom: 0;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox {
+  width: 320px;
+  margin: 0 auto;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox li {
+  color: #b2b2b2;
+  padding-left: 17px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__select {
+  margin-bottom: 23px;
+  height: 45px;
+  background: transparent;
+  border-radius: 0;
+  border: 1px solid #efefef;
+  box-shadow: none;
+  padding-left: 0;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
+  height: 45px;
+  line-height: 45px;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #b2b2b2;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text.placeholder {
+  width: auto;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger {
+  width: 45px;
+  background: #efefef;
+  border: 0;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger .jq-selectbox__trigger-arrow {
+  top: 19px;
+  right: 17px;
+  opacity: 1;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset .jq-selectbox .jq-selectbox__dropdown {
+  top: 46px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .title form fieldset input {
+  display: block;
+  margin: 0 auto;
+  width: 320px;
+  height: 45px;
+  border: 1px solid #efefef;
+  color: #b2b2b2;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 23px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip {
+  float: left;
+  width: 360px;
+  margin-left: 30px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset {
+  width: 360px;
+  height: 180px;
+  border: 1px solid #efefef;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset legend {
+  width: auto;
+  padding-right: 40px;
+  border-bottom: 0;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset .logo-img {
+  float: left;
+  margin-left: 25px;
+  width: 110px;
+  height: 110px;
+  background: linear-gradient(-45deg, rgba(255,255,255,0) 50%, #cecece 51%, rgba(255,255,255,0) 53%), linear-gradient(45deg, rgba(255,255,255,0) 51%, #cecece 52%, rgba(255,255,255,0) 53%) #efefef;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset .button-wraps {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset .button-wraps a.btn-download {
+  display: block;
+  margin: 0 auto;
+  border-radius: 35px;
+  height: 45px;
+  width: 140px;
+  background-color: #e21316;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 45px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.4s;
+  text-align: center;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .logotip fieldset .button-wraps a.btn-download:hover {
+  opacity: 0.8;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services {
+  float: left;
+  width: 360px;
+  margin-left: 25px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset {
+  width: 360px;
+  height: 180px;
+  border: 1px solid #efefef;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset legend {
+  width: auto;
+  padding-right: 40px;
+  border-bottom: 0;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap {
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap span {
+  margin-left: 15px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap .jq-checkbox.checked .jq-checkbox__div {
+  background: url("../img/check.png") no-repeat;
+  box-shadow: none;
+  width: 16px;
+  height: 16px;
+  background-size: 65% 60%;
+  background-position: 1px 2px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset .checkbox-wrap .jq-checkbox {
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-radius: 0;
+  background: #efefef;
+  box-shadow: none;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress {
+  float: left;
+  width: 750px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset {
+  width: 750px;
+  height: 470px;
+  border: 1px solid #efefef;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset legend {
+  width: auto;
+  padding-right: 40px;
+  border-bottom: 0;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox {
+  width: 335px;
+  float: left;
+  margin-left: 10px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox li {
+  color: #b2b2b2;
+  padding-left: 17px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select {
+  margin-bottom: 23px;
+  height: 45px;
+  background: transparent;
+  border-radius: 0;
+  border: 1px solid #efefef;
+  box-shadow: none;
+  padding-left: 0;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
+  height: 45px;
+  line-height: 45px;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #b2b2b2;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text.placeholder {
+  width: auto;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger {
+  width: 45px;
+  background: #efefef;
+  border: 0;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger .jq-selectbox__trigger-arrow {
+  top: 19px;
+  right: 17px;
+  opacity: 1;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset .jq-selectbox .jq-selectbox__dropdown {
+  top: 46px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset input {
+  display: block;
+  float: left;
+  margin-left: 45px;
+  width: 335px;
+  height: 45px;
+  border: 1px solid #efefef;
+  color: #b2b2b2;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-adress form fieldset iframe {
+  margin-left: 20px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts {
+  float: left;
+  width: 360px;
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset {
+  width: 360px;
+  height: 470px;
+  border: 1px solid #efefef;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset legend {
+  width: auto;
+  padding-right: 40px;
+  border-bottom: 0;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset input {
+  display: block;
+  margin: 0 auto;
+  width: 320px;
+  height: 45px;
+  border: 1px solid #efefef;
+  color: #b2b2b2;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 23px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset input:nth-child(4) {
+  width: 260px;
+  float: left;
+  margin-left: 20px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset img {
+  display: block;
+  margin: 0 auto;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-body {
+  height: 285px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-body h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-body .new-user form input {
+  display: block;
+  margin: 0 auto;
+  width: 360px;
+  height: 45px;
+  border: 1px solid #efefef;
+  color: #b2b2b2;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-footer {
+  height: 170px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-footer .button-wraps {
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-footer .button-wraps a.btnsavers {
+  margin: 0 auto;
+  display: block;
+  border-radius: 35px;
+  height: 60px;
+  width: 190px;
+  background-color: #e21316;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 60px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.4s;
+  text-align: center;
+}
+.add_point .modal.fade .modal-dialog .modal-content .modal-footer .button-wraps a.btnsavers:hover {
+  opacity: 0.8;
+}
+.footer {
+  background-color: #1d1e22;
+  height: 105px;
+}
+.footer .container .footer-wrap {
+  padding-top: 30px;
+}
+.footer .container .footer-wrap .footer-adress,
+.footer .container .footer-wrap .footer-tel,
+.footer .container .footer-wrap .copy {
+  float: left;
+}
+.footer .container .footer-wrap .footer-adress h2,
+.footer .container .footer-wrap .footer-tel h2,
+.footer .container .footer-wrap .copy h2,
+.footer .container .footer-wrap .footer-adress p,
+.footer .container .footer-wrap .footer-tel p,
+.footer .container .footer-wrap .copy p,
+.footer .container .footer-wrap .footer-adress a,
+.footer .container .footer-wrap .footer-tel a,
+.footer .container .footer-wrap .copy a {
+  color: #fff;
+}
+.footer .container .footer-wrap .footer-adress h2,
+.footer .container .footer-wrap .footer-tel h2,
+.footer .container .footer-wrap .copy h2 {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.footer .container .footer-wrap .footer-adress p,
+.footer .container .footer-wrap .footer-tel p,
+.footer .container .footer-wrap .copy p {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.footer .container .footer-wrap .footer-adress {
+  border-right: 2px solid #484a54;
+  padding-right: 50px;
+}
+.footer .container .footer-wrap .footer-tel {
+  padding-left: 40px;
+}
+.footer .container .footer-wrap .footer-tel a {
+  display: inline-block;
+}
+.footer .container .footer-wrap .footer-tel a:last-child {
+  margin-left: 25px;
+}
+.footer .container .footer-wrap .copy {
+  float: right;
+  margin-top: 25px;
+}
+.footer .container .footer-wrap .copy p {
+  color: #cecece;
+  font-size: 12px;
+}
+.header {
+  background-color: #f2f2f2;
+  height: 170px;
+  border-bottom: 1px solid #cecece;
+}
+.header .container .header-wrapp {
+  position: relative;
+}
+.header .container .header-wrapp .logo {
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+.header .container .header-wrapp ul.welcome {
+  float: right;
+  padding-left: 0;
+  margin-top: 70px;
+}
+.header .container .header-wrapp ul.welcome li {
+  list-style-type: none;
+  display: inline-block;
+}
+.header .container .header-wrapp ul.welcome li.dropdown {
+  position: relative;
+  padding-right: 18px;
+}
+.header .container .header-wrapp ul.welcome li.dropdown:before {
+  position: absolute;
+  right: 0;
+  top: -2px;
+  content: '';
+  display: block;
+  width: 1px;
+  height: 23px;
+  border-right: 1px solid #cecece;
+}
+.header .container .header-wrapp ul.welcome li.dropdown p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.header .container .header-wrapp ul.welcome li.dropdown ul.dropdown-menu {
+  position: relative;
+  margin-top: 5px;
+  padding: 0;
+}
+.header .container .header-wrapp ul.welcome li.dropdown ul.dropdown-menu:before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: -14px;
+  left: 73px;
+  border: 7px solid transparent;
+  border-bottom: 7px solid #cecece;
+}
+.header .container .header-wrapp ul.welcome li.dropdown ul.dropdown-menu:after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: -10px;
+  left: 75px;
+  border: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+}
+.header .container .header-wrapp ul.welcome li.dropdown ul.dropdown-menu li {
+  display: block;
+  height: 43px;
+  border-bottom: 1px solid #cecece;
+}
+.header .container .header-wrapp ul.welcome li.dropdown ul.dropdown-menu li:last-child {
+  border: none;
+}
+.header .container .header-wrapp ul.welcome li.dropdown ul.dropdown-menu li a {
+  padding: 0 0 0 17px;
+  height: inherit;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #e21316;
+  text-decoration: none;
+  line-height: 43px;
+}
+.header .container .header-wrapp ul.welcome li.dropdown ul.dropdown-menu > li > a:focus,
+.header .container .header-wrapp ul.welcome li.dropdown ul.dropdown-menu > li > a:hover {
+  background: none !important;
+}
+.header .container .header-wrapp ul.welcome li.exit {
+  padding-left: 16px;
+}
+.header .container .header-wrapp ul.welcome li.exit a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #e21316;
+  text-decoration: none;
+}
+.listdoc .container .block-listdoc {
+  padding-top: 15px;
+  margin-top: 10px;
+  background-color: #efefef;
+  height: 140px;
+}
+.listdoc .container .block-listdoc .name-doc,
+.listdoc .container .block-listdoc .price-obj,
+.listdoc .container .block-listdoc .button-obj {
+  float: left;
+}
+.listdoc .container .block-listdoc .name-doc {
+  margin-left: 90px;
+  margin-top: 10px;
+  width: 315px;
+}
+.listdoc .container .block-listdoc .name-doc h2 {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.listdoc .container .block-listdoc .name-doc p {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.listdoc .container .block-listdoc .price-obj {
+  margin-left: 85px;
+  margin-top: 30px;
+}
+.listdoc .container .block-listdoc .price-obj p {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.listdoc .container .block-listdoc .button-obj {
+  margin-left: 200px;
+}
+.listdoc .container .block-listdoc .button-obj img {
+  padding-bottom: 3px;
+}
+.listdoc .container .block-listdoc .button-obj p {
+  display: inline-block;
+  margin-left: 15px;
+}
+.listdoc .container .block-listdoc .button-obj .button-red {
+  margin-top: 25px;
+}
+.listdoc .container .block-listdoc .button-obj .button-del {
+  margin-top: 15px;
+}
+.listdoc .container .block-listdoc a {
+  color: #f00;
+}
+.listdoc .container .button-wrap {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.listdoc .container .button-wrap a.btnadd {
+  margin: 0 auto;
+  display: block;
+  border-radius: 35px;
+  height: 45px;
+  width: 170px;
+  background-color: #e21316;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 45px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.4s;
+}
+.listdoc .container .button-wrap a.btnadd img {
+  padding-right: 15px;
+  padding-bottom: 2px;
+}
+.listdoc .container .button-wrap a.btnadd:hover {
+  opacity: 0.8;
+}
+.login {
+  background-color: #f9f9f9;
+}
+.login .container h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 30px;
+}
+.login .container p {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #f00;
+}
+.login .container .form-login {
+  margin: 0 auto;
+  width: 360px;
+}
+.login .container .form-login form input {
+  width: 360px;
+  height: 45px;
+  border: 1px solid #e5e5e5;
+  color: #b2b2b2;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.login .container .form-login form input.pass {
+  margin-top: 25px;
+}
+.login .container .form-login form .button-wrap {
+  margin-top: 40px;
+  margin-bottom: 220px;
+}
+.login .container .form-login form .button-wrap a.btninput {
+  margin: 0 auto;
+  display: block;
+  border-radius: 35px;
+  height: 60px;
+  width: 210px;
+  background-color: #e21316;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 60px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.4s;
+  text-align: center;
+}
+.login .container .form-login form .button-wrap a.btninput:hover {
+  opacity: 0.8;
+}
+.login .container .form-login form .button-wrap a:last-child {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  padding-top: 20px;
+  color: #f00;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-decoration: underline;
+}
+.medicine .container h1 {
+  padding-bottom: 20px;
+  padding-top: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+.medicine .container .download-wrap {
+  border-bottom: 1px solid #cecece;
+  width: 395px;
+}
+.medicine .container .download-wrap .block-download.clearfix {
+  padding-bottom: 30px;
+}
+.medicine .container .download-wrap .block-download.clearfix .price-download,
+.medicine .container .download-wrap .block-download.clearfix .button-del {
+  float: left;
+}
+.medicine .container .download-wrap .block-download.clearfix .price-download p {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 10px;
+  border-right: 1px solid #cecece;
+  width: 145px;
+}
+.medicine .container .download-wrap .block-download.clearfix .button-del {
+  margin-left: 20px;
+  hegit: 40px;
+  line-height: 40px;
+}
+.medicine .container .download-wrap .block-download.clearfix .button-del img {
+  padding-bottom: 3px;
+}
+.medicine .container .download-wrap .block-download.clearfix .button-del p {
+  display: inline-block;
+  margin-left: 15px;
+}
+.medicine .container .download-wrap .block-download.clearfix .button-del a {
+  color: #f00;
+}
+.medicine .container .download-wrap .button-download {
+  margin-bottom: 30px;
+}
+.medicine .container .download-wrap .button-download img {
+  padding-bottom: 3px;
+}
+.medicine .container .download-wrap .button-download p {
+  display: inline-block;
+  margin-left: 15px;
+}
+.medicine .container .download-wrap .button-download a {
+  color: #f00;
+}
+.working-hours .container h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.working-hours .container .week-wrap {
+  width: 395px;
+}
+.working-hours .container .week-wrap .form-day form {
+  margin-bottom: 5px;
+}
+.working-hours .container .week-wrap .form-day form:last-child {
+  margin-bottom: 0;
+}
+.working-hours .container .week-wrap .form-day p {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 55px;
+  width: 100px;
+}
+.working-hours .container .week-wrap .form-day input {
+  width: 60px;
+  height: 33px;
+  border: 1px solid #e4e4e4;
+  color: #b2b2b2;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  margin-right: 10px;
+}
+.working-hours .container .week-wrap .form-day input:last-child {
+  margin-left: 7px;
+}
+.working-hours .container .week-wrap .form-link-online form {
+  padding-top: 30px;
+}
+.working-hours .container .week-wrap .form-link-online form input {
+  width: 360px;
+  height: 45px;
+  border: 1px solid #e4e4e4;
+  color: #b2b2b2;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+}
+.working-hours .container .week-wrap .form-link-online form .button-wrap {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.working-hours .container .week-wrap .form-link-online form .button-wrap a.btnsaver {
+  display: block;
+  border-radius: 35px;
+  height: 60px;
+  width: 190px;
+  background-color: #e21316;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 60px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.4s;
+  text-align: center;
+}
+.working-hours .container .week-wrap .form-link-online form .button-wrap a.btnsaver:hover {
+  opacity: 0.8;
+}
+.nav-tabs-wrap ul.nav.nav-tabs {
+  position: relative;
+  z-index: 1000;
+  bottom: -1px;
+}
+.nav-tabs-wrap ul.nav.nav-tabs li a {
+  font-weight: 300;
+  color: #888;
+  font-size: 16px;
+  padding: 0 20px;
+  height: 60px;
+  line-height: 60px;
+}
+.nav-tabs-wrap .nav-tabs > li.active > a,
+.nav-tabs-wrap .nav-tabs > li.active > a:hover,
+.nav-tabs-wrap .nav-tabs > li.active > a:focus {
+  color: #e21316 !important;
+  font-weight: 500 !important;
+}
+.nav-tabs-wrap .nav-tabs > li.active {
+  position: relative;
+  margin-right: 60px;
+}
+.nav-tabs-wrap .nav-tabs > li.active:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 59px;
+  width: 60px;
+  background: #fff linear-gradient(45deg, rgba(255,255,255,0) 48%, #ddd 50%, rgba(255,255,255,0) 51%);
+  z-index: 1000;
+  right: -56px;
+  top: 1px;
+}
+.tab-content {
+  padding-top: 10px;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .close {
+  width: 23px;
+  height: 23px;
+  background: linear-gradient(-45deg, rgba(255,255,255,0) 43%, #cecece 51%, rgba(255,255,255,0) 53%), linear-gradient(45deg, rgba(255,255,255,0) 45%, #cecece 53%, rgba(255,255,255,0) 53%);
+  opacity: 1;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .close:hover {
+  opacity: 1;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name {
+  margin: 0 auto;
+  width: 360px;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form .jq-selectbox {
+  width: 360px;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form .jq-selectbox li {
+  color: #b2b2b2;
+  padding-left: 17px;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form .jq-selectbox .jq-selectbox__select {
+  margin-bottom: 23px;
+  height: 45px;
+  background: transparent;
+  border-radius: 0;
+  border: 1px solid #efefef;
+  box-shadow: none;
+  padding-left: 0;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
+  height: 45px;
+  line-height: 45px;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #b2b2b2;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text.placeholder {
+  width: auto;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger {
+  width: 45px;
+  background: #efefef;
+  border: 0;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger .jq-selectbox__trigger-arrow {
+  top: 19px;
+  right: 17px;
+  opacity: 1;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form .jq-selectbox .jq-selectbox__dropdown {
+  top: 46px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form input {
+  width: 360px;
+  height: 45px;
+  border: 1px solid #efefef;
+  color: #b2b2b2;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 23px;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form .rabble {
+  position: relative;
+}
+.new_doctor .modal.fade .modal-dialog .modal-content .modal-header .form-name form .rabble:before {
+  position: absolute;
+  content: 'руб.';
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  right: -50px;
+  top: 10px;
+}
+.modal-body {
+  padding: 0;
+  background-color: #efefef;
+}
+.modal-body h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.modal-body .week-wraps {
+  width: 395px;
+  margin: 0 auto;
+}
+.modal-body .form-days form {
+  margin-bottom: 5px;
+}
+.modal-body .form-days form:last-child {
+  margin-bottom: 0;
+}
+.modal-body .form-days p {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 55px;
+  width: 100px;
+}
+.modal-body .form-days input {
+  width: 60px;
+  height: 33px;
+  border: 1px solid #e4e4e4;
+  color: #b2b2b2;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  margin-right: 10px;
+}
+.modal-body .form-days input:last-child {
+  margin-left: 7px;
+}
+.modal-footer {
+  padding: 0;
+}
+.modal-footer .form-online-link {
+  width: 360px;
+  margin: 0 auto;
+}
+.modal-footer .form-online-link form {
+  padding-top: 30px;
+}
+.modal-footer .form-online-link form input {
+  width: 360px;
+  height: 45px;
+  border: 1px solid #e4e4e4;
+  color: #b2b2b2;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+}
+.modal-footer .form-online-link form .button-wraps {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.modal-footer .form-online-link form .button-wraps a.btnsavers {
+  display: block;
+  margin: 0 auto;
+  border-radius: 35px;
+  height: 60px;
+  width: 190px;
+  background-color: #e21316;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 60px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.4s;
+  text-align: center;
+}
+.modal-footer .form-online-link form .button-wraps a.btnsavers:hover {
+  opacity: 0.8;
+}
+.pass-recovery {
+  background-color: #f9f9f9;
+}
+.pass-recovery .container h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 30px;
+}
+.pass-recovery .container p {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #f00;
+}
+.pass-recovery .container .form-mail {
+  margin: 0 auto;
+  width: 360px;
+}
+.pass-recovery .container .form-mail form input {
+  width: 360px;
+  height: 45px;
+  border: 1px solid #e5e5e5;
+  color: #b2b2b2;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.pass-recovery .container .form-mail form .button-wrap {
+  margin-top: 40px;
+  margin-bottom: 315px;
+}
+.pass-recovery .container .form-mail form .button-wrap a.btnrecovery {
+  margin: 0 auto;
+  display: block;
+  border-radius: 35px;
+  height: 60px;
+  width: 290px;
+  background-color: #e21316;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 60px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.4s;
+  text-align: center;
+}
+.pass-recovery .container .form-mail form .button-wrap a.btnrecovery:hover {
+  opacity: 0.8;
+}
+.profile {
+  background-color: #f9f9f9;
+}
+.profile .container h1 {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 40px;
+}
+.profile .container p {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.profile .container .form-prof form {
+  float: left;
+}
+.profile .container .form-prof form p {
+  color: #b2b2b2;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.profile .container .form-prof form input {
+  width: 350px;
+  height: 45px;
+  border: 1px solid #e5e5e5;
+  color: #b2b2b2;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 23px;
+  margin-right: 29px;
+}
+.profile .container .form-prof form .button-wrap {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.profile .container .form-prof form .button-wrap a.btnsave {
+  display: block;
+  border-radius: 35px;
+  height: 45px;
+  width: 140px;
+  background-color: #e21316;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 45px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.4s;
+  text-align: center;
+}
+.profile .container .form-prof form .button-wrap a.btnsave:hover {
+  opacity: 0.8;
+}
+.profile .change-pass {
+  background-color: #efefef;
+  width: 1170px;
+  margin: 0 auto;
+}
+.profile .change-pass .container p {
+  text-align: center;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.profile .change-pass .container .form-change-pass {
+  margin: 0 auto;
+  width: 360px;
+}
+.profile .change-pass .container .form-change-pass form p {
+  color: #b2b2b2;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.profile .change-pass .container .form-change-pass form input {
+  display: inline block;
+  width: 360px;
+  height: 45px;
+  border: 1px solid #e5e5e5;
+  color: #b2b2b2;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 23px;
+}
+.profile .change-pass .container .form-change-pass form .button-wrap {
+  margin-top: 2px;
+  margin-bottom: 65px;
+}
+.profile .change-pass .container .form-change-pass form .button-wrap a.btnchange {
+  display: block;
+  margin: 0 auto;
+  border-radius: 35px;
+  height: 45px;
+  width: 140px;
+  background-color: #e21316;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 45px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.4s;
+  text-align: center;
+}
+.profile .change-pass .container .form-change-pass form .button-wrap a.btnchange:hover {
+  opacity: 0.8;
+}
+.pulse {
+  height: 185px;
+}
+.pulse .container .pulse-wrap {
+  height: 185px;
+  padding-top: 40px;
+}
+.pulse .container .pulse-wrap img {
+  float: left;
+  margin-right: 30px;
+}
+.pulse .container .pulse-wrap h1 {
+  font-size: 40px;
+  color: #000;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.pulse .container .pulse-wrap h2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: 500;
+  margin: 0;
+}
+.registration {
+  background-color: #f9f9f9;
+}
+.registration .container h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 40px;
+}
+.registration .container p {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #f00;
+}
+.registration .container .form-reg {
+  margin: 0 auto;
+  width: 360px;
+}
+.registration .container .form-reg form {
+  margin-bottom: 25px;
+}
+.registration .container .form-reg form input {
+  width: 360px;
+  height: 45px;
+  border: 1px solid #e5e5e5;
+  color: #b2b2b2;
+  padding-left: 17px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 23px;
+}
+.registration .container .form-reg form .button-wrap {
+  margin-top: 40px;
+  margin-bottom: 93px;
+}
+.registration .container .form-reg form .button-wrap a.btnreg {
+  margin: 0 auto;
+  display: block;
+  border-radius: 35px;
+  height: 60px;
+  width: 290px;
+  background-color: #e21316;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 60px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.4s;
+  text-align: center;
+}
+.registration .container .form-reg form .button-wrap a.btnreg:hover {
+  opacity: 0.8;
+}
+.structure .container h1 {
+  padding-bottom: 40px;
+}
+.structure .container .block-content {
+  padding-top: 15px;
+  margin-top: 10px;
+  background-color: #efefef;
+  height: 140px;
+}
+.structure .container .block-content .name-obj,
+.structure .container .block-content .adress-obj,
+.structure .container .block-content .button-obj {
+  float: left;
+}
+.structure .container .block-content .name-obj {
+  margin-left: 115px;
+  margin-top: 10px;
+}
+.structure .container .block-content .name-obj h2 {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.structure .container .block-content .name-obj p {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.structure .container .block-content .adress-obj {
+  margin-left: 145px;
+  margin-top: 30px;
+}
+.structure .container .block-content .adress-obj p,
+.structure .container .block-content .adress-obj a {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.structure .container .block-content .button-obj {
+  margin-left: 340px;
+}
+.structure .container .block-content .button-obj img {
+  padding-bottom: 3px;
+}
+.structure .container .block-content .button-obj p {
+  display: inline-block;
+  margin-left: 15px;
+}
+.structure .container .block-content .button-obj .button-red {
+  margin-top: 25px;
+}
+.structure .container .block-content .button-obj .button-del {
+  margin-top: 15px;
+}
+.structure .container .block-content a {
+  color: #f00;
+}
+.structure .container .button-wrap {
+  margin-top: 45px;
+  margin-bottom: 95px;
+}
+.structure .container .button-wrap a.btnadd {
+  margin: 0 auto;
+  display: block;
+  border-radius: 35px;
+  height: 45px;
+  width: 170px;
+  background-color: #e21316;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 45px;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: opacity 0.4s;
+}
+.structure .container .button-wrap a.btnadd img {
+  padding-right: 15px;
+  padding-bottom: 2px;
+}
+.structure .container .button-wrap a.btnadd:hover {
+  opacity: 0.8;
+}

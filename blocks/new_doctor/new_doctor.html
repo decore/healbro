@@ -1,0 +1,98 @@
+
+<div class="new_doctor">
+  <div id="modal-1" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div data-dismiss="modal" class="close"></div>
+          <h1 class="modal-title">Добавление врача</h1>
+          <div class="form-name">
+            <form>
+              <div class="jq-selectbox">
+                <select data-placeholder="Ученая степень">
+                  <option></option>
+                  <option>Бакалавр</option>
+                  <option>Магистр</option>
+                  <option>Доктор философии</option>
+                </select>
+              </div>
+              <div class="jq-selectbox">
+                <select data-placeholder="Врач">
+                  <option></option>
+                  <option>Окулист</option>
+                  <option>Гастролог</option>
+                  <option>Гинеколог</option>
+                  <option>Дантист</option>
+                  <option>Хирург</option>
+                  <option>Психолог</option>
+                  <option>Нервопатолог</option>
+                </select>
+              </div>
+              <input type="text" name="last_name" placeholder="Фамилия"/>
+              <input type="text" name="first_name" placeholder="Имя"/>
+              <input type="text" name="middle_name" placeholder="Отчество"/>
+              <p>Стоимость первичной консультации</p>
+              <div class="rabble">
+                <input type="text" name="first_consultation" value=""/>
+              </div>
+              <p>Стоимость вторичной консультации</p>
+              <div class="rabble">
+                <input type="text" name="second_consultation" value=""/>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-body">
+          <h1>Дни приема / время приема:</h1>
+          <div class="week-wraps">
+            <div class="form-days">
+              <form>
+                <p>Понедельник</p>
+                <input type="text" name="start_time" placeholder="00:00"/> - 
+                <input type="text" name="end_time" placeholder="00:00"/>
+              </form>
+              <form>
+                <p>Вторник</p>
+                <input type="text" name="start_time" placeholder="00:00"/> - 
+                <input type="text" name="end_time" placeholder="00:00"/>
+              </form>
+              <form>
+                <p>Среда</p>
+                <input type="text" name="start_time" placeholder="00:00"/> - 
+                <input type="text" name="end_time" placeholder="00:00"/>
+              </form>
+              <form>
+                <p>Четверг</p>
+                <input type="text" name="start_time" placeholder="00:00"/> - 
+                <input type="text" name="end_time" placeholder="00:00"/>
+              </form>
+              <form>
+                <p>Пятница</p>
+                <input type="text" name="start_time" placeholder="00:00"/> - 
+                <input type="text" name="end_time" placeholder="00:00"/>
+              </form>
+              <form>
+                <p>Суббота</p>
+                <input type="text" name="start_time" placeholder="00:00"/> - 
+                <input type="text" name="end_time" placeholder="00:00"/>
+              </form>
+              <form>
+                <p>Воскресенье</p>
+                <input type="text" name="start_time" placeholder="00:00"/> - 
+                <input type="text" name="end_time" placeholder="00:00"/>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="form-online-link">
+            <form>
+              <input type="text" name="link-online" placeholder="Ссылка для онлайн записи"/>
+              <div class="button-wraps"><a href="#" class="btnsavers">Сохранить</a></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

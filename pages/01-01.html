@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>HB - 1 точка</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="../app/vendor/bootstrap/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="../app/vendor/formstyler/jquery.formstyler.css" type="text/css" rel="stylesheet">
+    <link href="../app/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="container">
+          <div class="header-wrapp"><a href="#" class="logo"><img src="../img/logo.png"></a>
+            <ul class="welcome">
+              <li class="dropdown">
+                <p data-toggle="dropdown">Здравствуйте, Иван Иванович</p>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Кабинет</a></li>
+                  <li><a href="#">Профиль</a></li>
+                </ul>
+              </li>
+              <li class="exit"><a href="#">Выйти</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="pulse">
+        <div class="container">
+          <div class="pulse-wrap"><img src="../img/pulse-logo.png" alt="pulse">
+            <h1>Аптека «Пульс»</h1>
+            <h2>г. Екатеринбург, ул. Радищева,4</h2>
+          </div>
+        </div>
+      </div>
+      <div class="nav-tabs">
+        <div class="container">
+          <div class="nav-tabs-wrap">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#medical-services" data-toggle="tab">Услуги врача</a></li>
+              <li><a href="#laboratory-research" data-toggle="tab">Лабораторные исследования</a></li>
+              <li><a href="#diagnostics" data-toggle="tab">Инструментальная диагностика</a></li>
+              <li><a href="#medical-supplies" data-toggle="tab">Лекарства и медицинские товары</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content">
+        <div id="medical-services" class="tab-pane fade in active">
+          <div class="listdoc">
+            <div class="container">
+              <div class="block-listdoc clearfix">
+                <div class="name-doc">
+                  <h2>Баранкина Зоя Федоровна</h2>
+                  <p>Терапевт</p>
+                </div>
+                <div class="price-obj">
+                  <p>Стоимость консультации: 1500 р.</p>
+                  <p>Дни и время приема: пн-пт 9:00-20:00</p>
+                </div>
+                <div class="button-obj">
+                  <div class="button-red"><a href="#"><img src="../img/ico-pencil.png">
+                      <p>Редактировать</p></a></div>
+                  <div class="button-del"><a href="#"><img src="../img/ico-remove.png">
+                      <p>Удалить</p></a></div>
+                </div>
+              </div>
+              <div class="block-listdoc clearfix">
+                <div class="name-doc">
+                  <h2>Федотова Ангелина Степановна</h2>
+                  <p>ЛОР</p>
+                </div>
+                <div class="price-obj">
+                  <p>Стоимость консультации: 1500 р.</p>
+                  <p>Дни и время приема: пн-пт 9:00-20:00</p>
+                </div>
+                <div class="button-obj">
+                  <div class="button-red"><a href="#"><img src="../img/ico-pencil.png">
+                      <p>Редактировать</p></a></div>
+                  <div class="button-del"><a href="#"><img src="../img/ico-remove.png">
+                      <p>Удалить</p></a></div>
+                </div>
+              </div>
+              <div class="block-listdoc clearfix">
+                <div class="name-doc">
+                  <h2>Яковлева Наталья Андреевна</h2>
+                  <p>Фармацевт</p>
+                </div>
+                <div class="price-obj">
+                  <p>Стоимость консультации: 1500 р.</p>
+                  <p>Дни и время приема: пн-пт 9:00-20:00</p>
+                </div>
+                <div class="button-obj">
+                  <div class="button-red"><a href="#"><img src="../img/ico-pencil.png">
+                      <p>Редактировать</p></a></div>
+                  <div class="button-del"><a href="#"><img src="../img/ico-remove.png">
+                      <p>Удалить</p></a></div>
+                </div>
+              </div>
+              <div class="button-wrap"><a data-toggle="modal" data-target="#modal-1" class="btnadd"><img src="../img/ico-red-plus1.png">Добавить</a></div>
+            </div>
+          </div>
+          <div class="new_doctor">
+            <div id="modal-1" class="modal fade">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <div data-dismiss="modal" class="close"></div>
+                    <h1 class="modal-title">Добавление врача</h1>
+                    <div class="form-name">
+                      <form>
+                        <div class="jq-selectbox">
+                          <select data-placeholder="Ученая степень">
+                            <option></option>
+                            <option>Бакалавр</option>
+                            <option>Магистр</option>
+                            <option>Доктор философии</option>
+                          </select>
+                        </div>
+                        <div class="jq-selectbox">
+                          <select data-placeholder="Врач">
+                            <option></option>
+                            <option>Окулист</option>
+                            <option>Гастролог</option>
+                            <option>Гинеколог</option>
+                            <option>Дантист</option>
+                            <option>Хирург</option>
+                            <option>Психолог</option>
+                            <option>Нервопатолог</option>
+                          </select>
+                        </div>
+                        <input type="text" name="last_name" placeholder="Фамилия">
+                        <input type="text" name="first_name" placeholder="Имя">
+                        <input type="text" name="middle_name" placeholder="Отчество">
+                        <p>Стоимость первичной консультации</p>
+                        <div class="rabble">
+                          <input type="text" name="first_consultation" value="">
+                        </div>
+                        <p>Стоимость вторичной консультации</p>
+                        <div class="rabble">
+                          <input type="text" name="second_consultation" value="">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="modal-body">
+                    <h1>Дни приема / время приема:</h1>
+                    <div class="week-wraps">
+                      <div class="form-days">
+                        <form>
+                          <p>Понедельник</p>
+                          <input type="text" name="start_time" placeholder="00:00"> - 
+                          <input type="text" name="end_time" placeholder="00:00">
+                        </form>
+                        <form>
+                          <p>Вторник</p>
+                          <input type="text" name="start_time" placeholder="00:00"> - 
+                          <input type="text" name="end_time" placeholder="00:00">
+                        </form>
+                        <form>
+                          <p>Среда</p>
+                          <input type="text" name="start_time" placeholder="00:00"> - 
+                          <input type="text" name="end_time" placeholder="00:00">
+                        </form>
+                        <form>
+                          <p>Четверг</p>
+                          <input type="text" name="start_time" placeholder="00:00"> - 
+                          <input type="text" name="end_time" placeholder="00:00">
+                        </form>
+                        <form>
+                          <p>Пятница</p>
+                          <input type="text" name="start_time" placeholder="00:00"> - 
+                          <input type="text" name="end_time" placeholder="00:00">
+                        </form>
+                        <form>
+                          <p>Суббота</p>
+                          <input type="text" name="start_time" placeholder="00:00"> - 
+                          <input type="text" name="end_time" placeholder="00:00">
+                        </form>
+                        <form>
+                          <p>Воскресенье</p>
+                          <input type="text" name="start_time" placeholder="00:00"> - 
+                          <input type="text" name="end_time" placeholder="00:00">
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="form-online-link">
+                      <form>
+                        <input type="text" name="link-online" placeholder="Ссылка для онлайн записи">
+                        <div class="button-wraps"><a href="#" class="btnsavers">Сохранить</a></div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="medical-supplies" class="tab-pane fade">
+          <div class="medicine">
+            <div class="container">
+              <h1>Действующий прайс</h1>
+              <div class="download-wrap">
+                <div class="block-download clearfix">
+                  <div class="price-download"><img src="../img/ico-green.png">
+                    <p>Прайс загружен</p>
+                  </div>
+                  <div class="button-del"><a href="#"><img src="../img/ico-remove.png">
+                      <p>Удалить</p></a></div>
+                </div>
+                <div class="button-download"><a href="#"><img src="../img/ico-download.png">
+                    <p>Загрузить прайс</p></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="working-hours">
+            <div class="container">
+              <h1>Время работы аптеки:</h1>
+              <div class="week-wrap">
+                <div class="form-day">
+                  <form>
+                    <p>Понедельник</p>
+                    <input type="text" name="start_time" placeholder="00:00"> - 
+                    <input type="text" name="end_time" placeholder="00:00">
+                  </form>
+                  <form>
+                    <p>Вторник</p>
+                    <input type="text" name="start_time" placeholder="00:00"> - 
+                    <input type="text" name="end_time" placeholder="00:00">
+                  </form>
+                  <form>
+                    <p>Среда</p>
+                    <input type="text" name="start_time" placeholder="00:00"> - 
+                    <input type="text" name="end_time" placeholder="00:00">
+                  </form>
+                  <form>
+                    <p>Четверг</p>
+                    <input type="text" name="start_time" placeholder="00:00"> - 
+                    <input type="text" name="end_time" placeholder="00:00">
+                  </form>
+                  <form>
+                    <p>Пятница</p>
+                    <input type="text" name="start_time" placeholder="00:00"> - 
+                    <input type="text" name="end_time" placeholder="00:00">
+                  </form>
+                  <form>
+                    <p>Суббота</p>
+                    <input type="text" name="start_time" placeholder="00:00"> - 
+                    <input type="text" name="end_time" placeholder="00:00">
+                  </form>
+                  <form>
+                    <p>Воскресенье</p>
+                    <input type="text" name="start_time" placeholder="00:00"> - 
+                    <input type="text" name="end_time" placeholder="00:00">
+                  </form>
+                  <div class="form-link-online">
+                    <form>
+                      <input type="text" name="link-online" placeholder="Ссылка для онлайн записи">
+                      <div class="button-wrap"><a href="#" class="btnsaver">Сохранить</a></div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-adress">
+            <h2>Адрес:</h2>
+            <p>620014 г.Екатеринбург,ул.Антона Валека 15 оф.516</p>
+          </div>
+          <div class="footer-tel">
+            <h2>Телефон:</h2><a href="tel:+73433581121">+7(343) 358 11 21</a><a href="tel:+73432073156">+7(343) 207 31 56</a>
+          </div>
+          <div class="copy">
+            <p>Copyright &copy; 2015 HealBro </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../app/vendor/jquery-2.1.1.js"></script>
+    <script src="../app/vendor/bootstrap/bootstrap.js"></script>
+    <script src="../app/vendor/formstyler/jquery.formstyler.min.js"></script>
+    <script src="../app/vendor/common.js"></script>
+  </body>
+</html>

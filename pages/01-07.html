@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>HB- Профиль</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="../app/vendor/bootstrap/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="../app/vendor/formstyler/jquery.formstyler.css" type="text/css" rel="stylesheet">
+    <link href="../app/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="container">
+          <div class="header-wrapp"><a href="#" class="logo"><img src="../img/logo.png"></a>
+            <ul class="welcome">
+              <li class="dropdown">
+                <p data-toggle="dropdown">Здравствуйте, Иван Иванович</p>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Кабинет</a></li>
+                  <li><a href="#">Профиль</a></li>
+                </ul>
+              </li>
+              <li class="exit"><a href="#">Выйти</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="profile">
+        <div class="container">
+          <h1>Профиль</h1>
+          <p>Учётные данные:</p>
+          <div class="form-prof">
+            <form>
+              <p>Фамилия</p>
+              <input type="text" name="last_name" placeholder="Иванов">
+            </form>
+            <form>
+              <p>Имя</p>
+              <input type="text" name="first_name" placeholder="Иван">
+            </form>
+            <form>
+              <p>Отчество</p>
+              <input type="text" name="middle_name" placeholder="Иванович">
+            </form>
+            <form>
+              <p>Телефон</p>
+              <input type="text" name="mail" placeholder="+7922 444 55 66">
+              <div class="button-wrap"><a href="#" class="btnsave">Сохранить</a></div>
+            </form>
+          </div>
+        </div>
+        <div class="change-pass">
+          <div class="container">
+            <p>Сменить пароль:</p>
+            <div class="form-change-pass">
+              <form>
+                <input type="password" name="pass" placeholder="Старый пароль">
+                <input type="password" name="pass_repeat" placeholder="Новый пароль">
+                <input type="password" name="pass_repeat" placeholder="Новый пароль ещё раз">
+                <div class="button-wrap"><a href="#" class="btnchange">Изменить</a></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-adress">
+            <h2>Адрес:</h2>
+            <p>620014 г.Екатеринбург,ул.Антона Валека 15 оф.516</p>
+          </div>
+          <div class="footer-tel">
+            <h2>Телефон:</h2><a href="tel:+73433581121">+7(343) 358 11 21</a><a href="tel:+73432073156">+7(343) 207 31 56</a>
+          </div>
+          <div class="copy">
+            <p>Copyright &copy; 2015 HealBro </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../app/vendor/jquery-2.1.1.js"></script>
+    <script src="../app/vendor/bootstrap/bootstrap.js"></script>
+    <script src="../app/vendor/formstyler/jquery.formstyler.min.js"></script>
+    <script src="../app/vendor/common.js"></script>
+  </body>
+</html>

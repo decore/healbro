@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>HB - Добавление точки</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="../app/vendor/bootstrap/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="../app/vendor/formstyler/jquery.formstyler.css" type="text/css" rel="stylesheet">
+    <link href="../app/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="container">
+          <div class="header-wrapp"><a href="#" class="logo"><img src="../img/logo.png"></a></div>
+        </div>
+      </header>
+      <button type="button" data-toggle="modal" data-target="#modal-2" class="btn btn-success">Открыть модальное окно</button>
+      <div class="add_point">
+        <div id="modal-2" class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div data-dismiss="modal" class="close"></div>
+                <h1 class="modal-title">Добавить новую точку</h1>
+                <div class="point-block-top clearfix">
+                  <div class="title">
+                    <form>
+                      <fieldset>
+                        <legend>Название</legend>
+                        <div class="jq-selectbox">
+                          <select data-placeholder="Вид">
+                            <option></option>
+                            <option>Пункт 1</option>
+                            <option>Пункт 2</option>
+                            <option>Пункт 3</option>
+                          </select>
+                        </div>
+                        <input type="text" name="title_number" placeholder="Название или номер">
+                      </fieldset>
+                    </form>
+                  </div>
+                  <div class="logotip">
+                    <fieldset>
+                      <legend>Логотип</legend>
+                      <div class="logo-img"></div>
+                      <div class="button-wraps"><a href="#" class="btn-download">Загрузить</a></div>
+                    </fieldset>
+                  </div>
+                  <div class="services">
+                    <fieldset>
+                      <legend>Услуги</legend>
+                      <div class="checkbox-wrap">
+                        <input type="checkbox" checked="checked" name="uslugi"><span>Услуги врача/врачей</span>
+                      </div>
+                      <div class="checkbox-wrap">
+                        <input type="checkbox" name="lab"><span>Лабораторные исследования</span>
+                      </div>
+                      <div class="checkbox-wrap">
+                        <input type="checkbox" name="diag"><span>Инструментальная диагностика</span>
+                      </div>
+                      <div class="checkbox-wrap">
+                        <input type="checkbox" name="uslugi"><span>Продажа лекарств и мед. товаров</span>
+                      </div>
+                    </fieldset>
+                  </div>
+                  <div class="block-adress">
+                    <form>
+                      <fieldset>
+                        <legend>Название</legend>
+                        <div class="jq-selectbox">
+                          <select data-placeholder="Страна">
+                            <option></option>
+                            <option>Пункт 1</option>
+                            <option>Пункт 2</option>
+                            <option>Пункт 3</option>
+                          </select>
+                        </div>
+                        <input type="text" name="adress" placeholder="Адрес">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3861.9082703919103!2d74.32016546651397!3d14.547237955865878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1436751671477" width="705" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+                      </fieldset>
+                    </form>
+                  </div>
+                  <div class="block-contacts">
+                    <form>
+                      <fieldset>
+                        <legend>Контакты</legend>
+                        <input type="text" name="sait" placeholder="Сайт">
+                        <input type="text" name="mail" placeholder="E-mail">
+                        <input type="text" name="adress" placeholder="Телефон" class="tel1"><img src="../img/ico-red-plus.png">
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body">
+                <h1>Новый пользователь:</h1>
+                <div class="new-user">
+                  <form>
+                    <input type="text" name="E-mail" placeholder="E-mail">
+                    <input type="password" name="pass" placeholder="Пароль">
+                    <input type="password" name="pass_repeat" placeholder="Пароль еще раз">
+                  </form>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <div class="button-wraps"><a href="#" class="btnsavers">Сохранить</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-adress">
+            <h2>Адрес:</h2>
+            <p>620014 г.Екатеринбург,ул.Антона Валека 15 оф.516</p>
+          </div>
+          <div class="footer-tel">
+            <h2>Телефон:</h2><a href="tel:+73433581121">+7(343) 358 11 21</a><a href="tel:+73432073156">+7(343) 207 31 56</a>
+          </div>
+          <div class="copy">
+            <p>Copyright &copy; 2015 HealBro </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../app/vendor/jquery-2.1.1.js"></script>
+    <script src="../app/vendor/bootstrap/bootstrap.js"></script>
+    <script src="../app/vendor/formstyler/jquery.formstyler.min.js"></script>
+    <script src="../app/vendor/common.js"></script>
+  </body>
+</html>
