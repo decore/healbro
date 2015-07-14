@@ -696,6 +696,7 @@ a {
   padding: 0 20px;
   text-decoration: none;
   transition: opacity 0.4s;
+  cursor: pointer;
 }
 .listdoc .container .button-wrap a.btnadd img {
   padding-right: 15px;
