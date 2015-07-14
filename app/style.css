@@ -395,6 +395,9 @@ a {
   .modal-dialog {
     width: 98% !important;
   }
+  .modal-adaptive {
+    width: 600px !important;
+  }
 }
 @media (max-width: 768px) {
   fieldset {
