@@ -1,5 +1,19 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto:400,300,500&subset=cyrillic-ext,latin");
 body {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+body main {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+body {
   min-width: 480px;
 }
 h1,
@@ -662,11 +676,15 @@ a {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
-.listdoc .container .block-listdoc .button-obj img {
+.listdoc .container .block-listdoc .button-obj a {
+  text-decoration: none;
+  display: block;
+}
+.listdoc .container .block-listdoc .button-obj a img {
   padding-bottom: 3px;
 }
-.listdoc .container .block-listdoc .button-obj p {
-  display: inline-block;
+.listdoc .container .block-listdoc .button-obj a p {
+  display: inline;
   margin-left: 15px;
 }
 .listdoc .container .block-listdoc .button-obj .button-red {
@@ -829,15 +847,16 @@ a {
   hegit: 40px;
   line-height: 40px;
 }
-.medicine .container .download-wrap .block-download.clearfix .button-del img {
-  padding-bottom: 3px;
-}
-.medicine .container .download-wrap .block-download.clearfix .button-del p {
-  display: inline-block;
-  margin-left: 15px;
-}
 .medicine .container .download-wrap .block-download.clearfix .button-del a {
   color: #f00;
+  text-decoration: none;
+}
+.medicine .container .download-wrap .block-download.clearfix .button-del a img {
+  padding-bottom: 3px;
+}
+.medicine .container .download-wrap .block-download.clearfix .button-del a p {
+  display: inline;
+  margin-left: 15px;
 }
 .medicine .container .download-wrap .button-download {
   margin-bottom: 30px;
@@ -926,7 +945,7 @@ a {
 }
 .nav-tabs-wrap ul.nav.nav-tabs {
   position: relative;
-  z-index: 1000;
+  z-index: 10000;
   bottom: -1px;
 }
 .nav-tabs-wrap ul.nav.nav-tabs li a {
@@ -1506,11 +1525,14 @@ a {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
-.structure .container .block-content .button-obj img {
+.structure .container .block-content .button-obj a {
+  text-decoration: none;
+}
+.structure .container .block-content .button-obj a img {
   padding-bottom: 3px;
 }
-.structure .container .block-content .button-obj p {
-  display: inline-block;
+.structure .container .block-content .button-obj a p {
+  display: inline;
   margin-left: 15px;
 }
 .structure .container .block-content .button-obj .button-red {

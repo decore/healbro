@@ -4,20 +4,14 @@ $(document).ready(function(){
 // https://github.com/gabceb/jquery-browser-plugin
 	var htmlWidth = $('html').width();
 	var htmlHeight = $('html').height();
-	var virtualViewportWidthPhone = 768;
-	var virtualViewportWidthDesktop = 990;
-	var virtualViewportWidthMax = 1170;
+	var virtualViewportWidthPhone = 480;
 	// for desktops: virtual viewport
 	if ($.browser.desktop) {
 		if (!$.browser.mozilla) {
 			var scaleScreen = function(){
 				$('html').css('zoom', '1');
 				htmlWidth = $('html').width();
-				if ((htmlWidth > virtualViewportWidthMax) && !$.browser.msie) {
-					var zoom = htmlWidth/virtualViewportWidthMax;
-				} else if ((htmlWidth > virtualViewportWidthPhone) && !$.browser.msie) {
-					var zoom = htmlWidth/virtualViewportWidthDesktop;
-				} else if ((htmlWidth <= virtualViewportWidthPhone) && !$.browser.msie) {
+				if ((htmlWidth <= virtualViewportWidthPhone) && !$.browser.msie) {
 					var zoom = htmlWidth/virtualViewportWidthPhone;
 				};
 				$('html').css('zoom', zoom);
@@ -33,13 +27,7 @@ $(document).ready(function(){
 				});
 				htmlWidth = $('body').width();
 				htmlHeight = $('body').height();
-				if ((htmlWidth > virtualViewportWidthMax) && !$.browser.msie) {
-					var zoom = htmlWidth/virtualViewportWidthMax;
-					var viewport = virtualViewportWidthMax;
-				} else if ((htmlWidth > virtualViewportWidthPhone) && !$.browser.msie) {
-					var zoom = htmlWidth/virtualViewportWidthDesktop;
-					var viewport = virtualViewportWidthDesktop;
-				} else if ((htmlWidth <= virtualViewportWidthPhone) && !$.browser.msie) {
+				if ((htmlWidth <= virtualViewportWidthPhone) && !$.browser.msie) {
 					var zoom = htmlWidth/virtualViewportWidthPhone;
 					var viewport = virtualViewportWidthPhone;
 				};
@@ -69,13 +57,7 @@ $(document).ready(function(){
 		if (htmlWidth <= virtualViewportWidthPhone) {
 			$('meta[name=viewport]').attr('content', 'width=' + virtualViewportWidthPhone);
 		// for tablets
-		} else {
-			$('meta[name=viewport]').attr('content', 'width=' + virtualViewportWidthDesktop);
 		};
-	};
-	// for ie: native viewport
-	if ($.browser.msie) {
-		$('head').append('<style>@-ms-viewport {width: ' + virtualViewportWidthDesktop + 'px}</style>');
 	};
 	// END VIEWPORT
 });
