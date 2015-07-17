@@ -870,6 +870,7 @@ a {
 }
 .medicine .container .download-wrap .button-download a {
   color: #f00;
+  text-decoration: none;
 }
 .working-hours .container h1 {
   font-size: 24px;
@@ -945,7 +946,7 @@ a {
 }
 .nav-tabs-wrap ul.nav.nav-tabs {
   position: relative;
-  z-index: 10000;
+  z-index: 1000;
   bottom: -1px;
 }
 .nav-tabs-wrap ul.nav.nav-tabs li a {
