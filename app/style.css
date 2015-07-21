@@ -22,9 +22,6 @@ p,
 a {
   font-family: 'Roboto', sans-serif;
 }
-.container {
-  min-width: 480px !important;
-}
 .add_point .container .modal.fade .modal-dialog {
   max-width: 1170px;
 }
@@ -180,7 +177,7 @@ a {
 }
 .add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset {
   width: 360px;
-  height: 180px;
+  min-height: 180px;
   border: 1px solid #efefef;
 }
 .add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .services fieldset legend {
@@ -306,7 +303,6 @@ a {
 }
 .add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset {
   width: 360px;
-  height: 470px;
   border: 1px solid #efefef;
 }
 .add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset legend {
@@ -335,9 +331,15 @@ a {
   float: left;
   margin-left: 20px;
 }
-.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset img {
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset .tell {
+  float: left !important;
+  margin-left: 19px !important;
+}
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset a {
   display: block;
-  margin: 0 auto;
+}
+.add_point .container .modal.fade .modal-dialog .modal-content .modal-header .point-block-top .block-contacts form fieldset a img {
+  margin-left: 10px;
 }
 .add_point .container .modal.fade .modal-dialog .modal-content .modal-body {
   height: 285px;
@@ -426,11 +428,11 @@ a {
     width: 100% !important;
   }
   .jq-selectbox,
-  input {
+  .input-item {
     float: none !important;
     margin: 0 auto !important;
   }
-  input {
+  .input-item {
     margin-bottom: 25px !important;
   }
   .adap {
@@ -1290,17 +1292,17 @@ a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
-.profile .container .form-prof form {
+.profile .container form.form-prof .input-wrap {
   float: left;
 }
-.profile .container .form-prof form p {
+.profile .container form.form-prof .input-wrap p {
   color: #b2b2b2;
   font-size: 14px;
   font-weight: 500;
   margin: 0;
   padding: 0;
 }
-.profile .container .form-prof form input {
+.profile .container form.form-prof .input-wrap input {
   width: 350px;
   height: 45px;
   border: 1px solid #e5e5e5;
@@ -1312,11 +1314,13 @@ a {
   margin-bottom: 23px;
   margin-right: 29px;
 }
-.profile .container .form-prof form .button-wrap {
+.profile .container form.form-prof .button-wrap {
+  float: left;
+  width: 100%;
   margin-top: 30px;
   margin-bottom: 50px;
 }
-.profile .container .form-prof form .button-wrap a.btnsave {
+.profile .container form.form-prof .button-wrap a.btnsave {
   display: block;
   border-radius: 35px;
   height: 45px;
@@ -1332,7 +1336,7 @@ a {
   transition: opacity 0.4s;
   text-align: center;
 }
-.profile .container .form-prof form .button-wrap a.btnsave:hover {
+.profile .container form.form-prof .button-wrap a.btnsave:hover {
   opacity: 0.8;
 }
 .profile .change-pass {
